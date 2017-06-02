@@ -13,3 +13,6 @@ class Article(models.Model):
         return self.title
     class Meta: #按时间下降排序
         ordering = ['-date_time'] 
+
+    #def get_absolute_url(self):
+    #    pass
